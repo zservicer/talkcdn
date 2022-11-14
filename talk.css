@@ -4,10 +4,17 @@
   right:50px;
   width:80px;
   height:80px;
-  background:#b4d145;
+  border: none;
+  background:rgba(255,255,255, 0.6);
   border-radius:10%;
-  border:none;
-  box-shadow:11px 7px 10px 1px rgb(0 0 0 / 50%);
+  box-shadow: 1px 1px 8px 6px rgb(0 0 0 / 50%);
+}
+
+.float-button:active {
+  background:rgba(255,255,255, 0.8);
+  padding-top: 3px;
+  padding-left: 6px;
+  box-shadow: 4px 4px 8px 6px rgb(0 0 0 / 50%);
 }
 
 .float-talk {
