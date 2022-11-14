@@ -29,8 +29,12 @@ window.onload = () => {
 
   const btn = document.createElement("input");
   btn.type = "button";
-  btn.value = "客服";
-  btn.id="btn";
+  if (talk_button_text) {
+    btn.value = talk_button_text;
+  } else {
+    btn.value = "客服";
+  }
+
   btn.className="float-button";
   btn.addEventListener('click', talkButtonClicked);
   document.body.appendChild(btn);
