@@ -17,14 +17,14 @@ function talkButtonClicked() {
   }
 }
 
-// eslint-disable-next-line no-unused-vars
-function load() {
+window.onload = () => {
   let ciframe = document.createElement("iframe");
   ciframe.id='talk';
   // eslint-disable-next-line no-undef
   ciframe.src= talk_customer_url;
   ciframe.className='float-talk';
   document.body.appendChild(ciframe);
+  ciframe.style.display='none';
   ciframe = null;
 
   const btn = document.createElement("input");
@@ -50,7 +50,7 @@ function load() {
 
   if (iframe.attachEvent) { // IE
     iframe.onreadystatechange = () => {
-      if (iframe.readystate == 'complete') {
+      if (iframe.readystate === 'complete') {
         sendTalkToken()
       }
     }
