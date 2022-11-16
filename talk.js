@@ -29,7 +29,7 @@ window.onload = () => {
 
   const btn = document.createElement("input");
   btn.type = "button";
-  if (talk_button_text) {
+  if (typeof(talk_button_text) != 'undefined' && talk_button_text) {
     btn.value = talk_button_text;
   } else {
     btn.value = "客服";

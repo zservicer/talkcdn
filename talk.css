@@ -26,6 +26,7 @@
   background:#b4d145;
   border:none;
   box-shadow:0 0 10px 10px rgb(0 0 0 / 50%);
+  z-index: 9999;
 }
 
 
@@ -38,5 +39,16 @@
     bottom:150px;
     width: 70%;
     height: 50%;
+  }
+}
+
+@media (max-height: 700px) {
+  .float-button {
+    bottom: 40px;
+  }
+
+  .float-talk {
+    height:60%;
+    bottom: 140px;
   }
 }
