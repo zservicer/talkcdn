@@ -7,8 +7,8 @@
     const talk_customer_url='https://kf.ymipro.com/customer'
     const talk_button_text='反馈'
   </script>
-  <script charset="utf-8" src="https://cdn.jsdelivr.net/gh/zservicer/talkcdn@0.0.5/talk.js"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/zservicer/talkcdn@0.0.5/talk.css">
+  <script charset="utf-8" src="https://cdn.jsdelivr.net/gh/zservicer/talkcdn@0.0.6/talk.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/zservicer/talkcdn@0.0.6/talk.css">
 ```
 
 * `talk_customer_url`为用户页地址
